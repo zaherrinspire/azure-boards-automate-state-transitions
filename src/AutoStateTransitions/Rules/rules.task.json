@@ -7,6 +7,12 @@
       "setParentStateTo": "Active",
       "allChildren": false
     },
+        {
+      "ifChildState": "In Progress",
+      "notParentStates": [ "In Progress", "Resolved" ],
+      "setParentStateTo": "In Progress",
+      "allChildren": false
+    },
     {
       "ifChildState": "New",
       "notParentStates": [ "Active", "Resolved", "New" ],
