@@ -9,8 +9,8 @@
     },
         {
       "ifChildState": "In Progress",
-      "notParentStates": [ "In Progress", "Resolved" ],
-      "setParentStateTo": "In Progress",
+      "notParentStates": [ "Committed", "Resolved" ],
+      "setParentStateTo": "Committed",
       "allChildren": false
     },
     {
